@@ -21,7 +21,7 @@ end
 
 class Object
   def let
-    block_given? ? yield(self) :self
+    block_given? ? yield(self) : self
   end
 end
 
